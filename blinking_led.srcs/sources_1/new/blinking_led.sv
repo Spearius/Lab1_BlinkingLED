@@ -11,7 +11,7 @@ module blinking_led #(parameter int CLK_CYCLE_PER_TOGGLE = 62_500_000)
         output logic led_out
     );
     
-    logic [$clog2(CLK_CYCLE_PER_TOGGLE) - 1:0] counter;     // Sets the bit width for the clock toggle rate
+    logic [$clog2(CLK_CYCLE_PER_TOGGLE) - 1:0] counter;     // Sets the bit width (26-bits) for the clock toggle rate
     
     always_ff @(posedge sysclk)
         begin

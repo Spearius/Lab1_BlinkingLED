@@ -1,0 +1,18 @@
+# Vivado generated folders
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Vivado project/generated files
+*.xpr
+*.jou
+*.log
+*.str
+
+# Vivado Design Checkpoints
+*.dcp
+
+# FPGA bitstream files
+*.bit
